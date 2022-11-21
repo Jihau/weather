@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-image: url("https://i.pinimg.com/originals/4f/dc/a2/4fdca2986a1e23bae67fa9220aba661f.jpg");
+  color: white;
+}
+
+.page {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+  color: white;
+  font-family: sans-serif, "Calibri Light";
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-button {
+  display: block;
+  margin: 20px auto 0;
+  background-color: #1f2025;
+  color: #a4a9a9;
+  border-color: #393a44;
+  border-style: solid;
+}
+
+.temp {
+  padding: 20px;
+  text-align: center;
+}
+
+#city {
+  background-color: #1f2025;
+  color: white;
+  border-color: #393a44;
+  border-style: solid;
+}
+
+input#city {
+  background-color: #1f2025;
+  color: white;
+  border-color: #393a44;
+  border-style: solid;
+}
+
+.icon {
+  padding: 20px;
+  text-align: center;
+}
